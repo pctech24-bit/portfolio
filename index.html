@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pinak Chavda – Senior System Administrator</title>
+<title>Pinak Chavda – Senior System Administrator | M365 &amp; Infrastructure</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -86,41 +86,72 @@ footer{padding:26px 0;border-top:1px solid var(--line);color:var(--mute);font-si
   .card{transition:none}.card:hover{transform:none}
   html{scroll-behavior:auto}
 }
+
+.stats.g2{grid-template-columns:1fr 1fr}
+.stats.g2 .stat strong{font-size:2.2rem}
+.job ul{margin:8px 0 0;padding-left:18px;color:var(--mute);max-width:40rem}
+.job li{margin-bottom:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.list li{border:1px solid var(--line);background:linear-gradient(160deg,var(--bg2),var(--bg));padding:12px 16px;border-radius:4px}
+.sk{display:grid;gap:18px}
+.sk h3{font-size:1.25rem;color:var(--gold);margin-bottom:8px}
+.res{margin:0 0 14px;color:var(--text);font-weight:700;font-size:.92rem}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<nav><div class="wrap"><b>PC</b><div><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
+<nav><div class="wrap"><b>PC</b><div><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
 
 <header class="hero"><div class="beam" aria-hidden="true"></div>
 <div class="wrap">
-<div class="copy">
   <div class="role">Pinak Chavda · Senior System Administrator</div>
   <h1><span><i>I keep</i></span><span><i class="gold">systems running.</i></span></h1>
-  <p>Microsoft 365, firewalls, endpoints and backups – built so that people can work without thinking about the infrastructure underneath.</p>
-  <div class="btns"><a class="btn fill" href="#work">See what I manage</a><a class="btn" href="#contact">Get in touch</a></div>
-</div>
+  <p>M365, firewalls, endpoint security and audit-ready infrastructure. 4+ years keeping businesses secure, compliant and online.</p>
+  <div class="btns"><a class="btn fill" href="#work">See my work</a><a class="btn" href="#contact">Get in touch</a></div>
 </div></header>
 
 <section id="about"><div class="wrap about">
   <div>
-    <h2>Quiet <span class="gold">infrastructure,</span> loud results.</h2>
-    <p>I’m a system administrator with 4+ years in IT infrastructure, working across Microsoft 365, Windows Server and multi-vendor network security.</p>
-    <p>I automate repetitive admin work with PowerShell, lock down endpoints, and make sure backups actually restore. Based in Gujarat, India.</p>
+    <h2>Secure, compliant, <span class="gold">always on.</span></h2>
+    <p>I’m a Senior System Administrator with 4+ years of experience managing IT infrastructure and network security, and supporting ISO 27001 and SOC 2 audits.</p>
+    <p>I work with compliance teams, manage Intune security policies, update firewalls based on auditor feedback, monitor uptime with PRTG and automate routine work with PowerShell. Based in Ahmedabad, Gujarat.</p>
   </div>
-  <div class="stats">
+  <div class="stats g2">
     <div class="stat"><strong class="gold">4+</strong><span>Years in IT infrastructure</span></div>
-    <div class="stat"><strong class="gold">3</strong><span>Firewall platforms: Sophos, FortiGate, SonicWall</span></div>
-    <div class="stat"><strong class="gold">M365</strong><span>Entra ID, Intune, Exchange Online, SharePoint</span></div>
+    <div class="stat"><strong class="gold">100+</strong><span>Users migrated with zero data loss</span></div>
+    <div class="stat"><strong class="gold">40%</strong><span>Less manual effort via PowerShell</span></div>
+    <div class="stat"><strong class="gold">12+</strong><span>IT staff mentored</span></div>
   </div>
 </div></section>
 
 <section id="work"><div class="wrap">
-  <h2>What I <span class="gold">manage.</span></h2>
+  <h2>Selected <span class="gold">work.</span></h2>
   <div class="cards">
-    <article class="card"><h3>Identity &amp; Microsoft 365</h3><p>Tenant administration, access policies and device management for a whole organisation.</p><ul class="tags"><li>Entra ID</li><li>Intune</li><li>Exchange Online</li><li>SharePoint</li><li>Conditional Access</li></ul></article>
-    <article class="card"><h3>Network &amp; Firewalls</h3><p>Secure, segmented networks across several firewall vendors.</p><ul class="tags"><li>Sophos</li><li>FortiGate</li><li>SonicWall</li><li>Routing &amp; switching</li></ul></article>
-    <article class="card"><h3>Endpoint Security</h3><p>Protecting data on every laptop and desktop.</p><ul class="tags"><li>DLP</li><li>BitLocker</li><li>Intune policies</li></ul></article>
-    <article class="card"><h3>Servers, Backup &amp; Automation</h3><p>Reliable Windows Server environments, tested recovery and scripted routine work.</p><ul class="tags"><li>Windows Server</li><li>PowerShell</li><li>Acronis</li><li>Veeam</li></ul></article>
+    <article class="card"><h3>Email migrations</h3><p>Migrated mailboxes between Microsoft 365, Google Workspace and Zoho.</p><p class="res">100+ users, zero data loss</p><ul class="tags"><li>Microsoft 365</li><li>Google Workspace</li><li>Zoho</li></ul></article>
+    <article class="card"><h3>Server &amp; hybrid identity</h3><p>Led Windows Server migration from 2012 to 2022 with Active Directory restructuring and DNS reconfiguration. Set up Azure AD Connect to sync on-prem AD to Microsoft Entra ID with SSO.</p><ul class="tags"><li>Windows Server</li><li>Active Directory</li><li>Entra ID</li><li>SSO</li></ul></article>
+    <article class="card"><h3>Audit &amp; compliance support</h3><p>Provided system data, change logs and user access reviews for ISO 27001 and SOC 2 audits. Set up PRTG to track server uptime and send alerts, meeting SOC 2 availability rules.</p><ul class="tags"><li>ISO 27001</li><li>SOC 2</li><li>PRTG</li></ul></article>
+    <article class="card"><h3>Endpoint &amp; firewall security</h3><p>Managed laptop security with Intune: BitLocker encryption and software updates. Administered Sophos, FortiGate and SonicWall firewalls, creating web and application policies and updating them from auditor feedback.</p><ul class="tags"><li>Intune</li><li>BitLocker</li><li>Sophos</li><li>FortiGate</li><li>SonicWall</li></ul></article>
+    <article class="card"><h3>Automation &amp; monitoring</h3><p>Automated admin tasks with PowerShell and ran RMM tools for proactive monitoring, automated patching and remote troubleshooting.</p><p class="res">40% less manual effort</p><ul class="tags"><li>PowerShell</li><li>RMM</li><li>Patch management</li></ul></article>
+    <article class="card"><h3>Network &amp; storage build-outs</h3><p>At Skytech: designed enterprise networks with P2P wireless links and Wi-Fi AP deployments, configured Sophos NAT and site-to-site VPNs, and deployed servers and NAS with RAID 1/5/10.</p><ul class="tags"><li>VPN</li><li>Wi-Fi</li><li>NAS / RAID</li><li>Veeam</li><li>Acronis</li></ul></article>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills &amp; <span class="gold">certifications.</span></h2>
+  <div class="two">
+    <div class="sk">
+      <div><h3>Cloud &amp; M365</h3><ul class="tags"><li>Azure AD / Entra ID</li><li>Exchange Online</li><li>Intune</li><li>Conditional Access</li><li>MFA</li></ul></div>
+      <div><h3>Firewalls &amp; network</h3><ul class="tags"><li>Sophos</li><li>FortiGate</li><li>SonicWall</li><li>VPN tunnels</li><li>IPS/IDS</li><li>Zone policies</li><li>LAN/WAN routing</li></ul></div>
+      <div><h3>Systems &amp; monitoring</h3><ul class="tags"><li>Windows Server 2012–2025</li><li>Active Directory</li><li>GPO</li><li>DNS</li><li>PRTG</li></ul></div>
+      <div><h3>Data protection &amp; automation</h3><ul class="tags"><li>DLP</li><li>BitLocker</li><li>Veeam</li><li>Acronis</li><li>PowerShell</li><li>RMM</li></ul></div>
+    </div>
+    <ul class="list">
+      <li>Firewall Administration – CompTIA Authorized Partner</li>
+      <li>Microsoft Azure Administrator</li>
+      <li>Cybersecurity Awareness &amp; Terminology</li>
+      <li>Backup &amp; Recovery with Veeam</li>
+    </ul>
   </div>
 </div></section>
 
@@ -128,18 +159,18 @@ footer{padding:26px 0;border-top:1px solid var(--line);color:var(--mute);font-si
   <h2>Experience &amp; <span class="gold">milestones.</span></h2>
   <div class="tl">
     <div class="job"><em>Sep 2026 – Present</em><h3>Senior System Administrator</h3><p>Azista Space. Leading IT infrastructure administration.</p></div>
-    <div class="job"><em>Jul 2024 – Jul 2026</em><h3>Senior System Administrator</h3><p>Techmonarch. Microsoft 365, endpoint security, firewalls, servers and backups.</p></div>
-    <div class="job"><em>Mar 2022 – Jul 2024</em><h3>Network Engineer</h3><p>Skytech Technology. Network infrastructure and multi-vendor firewall work.</p></div>
-    <div class="job"><em>Education</em><h3>BCA</h3><p>Bachelor of Computer Applications.</p></div>
+    <div class="job"><em>Jul 2024 – Jul 2026</em><h3>Senior System Administrator</h3><p>Techmonarch, Ahmedabad.</p><ul><li>Supported ISO 27001 and SOC 2 audits with system data and change logs.</li><li>Managed laptop security with Intune and BitLocker.</li><li>Administered Sophos, FortiGate and SonicWall firewalls.</li><li>Migrated 100+ users’ email with zero data loss and led Windows Server 2012 to 2022 migration.</li><li>Automated tasks with PowerShell, cutting manual effort by 40%, and mentored 12+ IT staff.</li></ul></div>
+    <div class="job"><em>Mar 2022 – Jul 2024</em><h3>Network Engineer</h3><p>Skytech Technology, Rajkot.</p><ul><li>Designed enterprise networks, P2P wireless links and Wi-Fi deployments.</li><li>Configured Sophos NAT, site-to-site VPNs and security rule sets.</li><li>Deployed servers and NAS storage with RAID 1/5/10.</li></ul></div>
+    <div class="job"><em>2019 – 2022</em><h3>BCA</h3><p>Saurashtra University, Gujarat. Languages: English (professional), Hindi (fluent), Gujarati (native).</p></div>
   </div>
 </div></section>
 
 <section id="contact"><div class="wrap contact">
   <h2>Let’s <span class="gold">talk.</span></h2>
-  <p>Open to senior IT infrastructure and Microsoft 365 administration roles in Ahmedabad or remote.</p>
+  <p>Open to senior M365 / cloud administrator and IT infrastructure roles in Ahmedabad or remote.</p>
   <a class="btn fill" href="mailto:pinakchavada24@gmail.com">pinakchavada24@gmail.com</a>
 </div></section>
 
-<footer><div class="wrap">© 2026 Pinak Chavda</div></footer>
+<footer><div class="wrap">© 2026 Pinak Chavda · Ahmedabad, Gujarat</div></footer>
 </body>
 </html>
